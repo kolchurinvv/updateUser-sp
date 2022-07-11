@@ -1,0 +1,15 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.7.14",
+    "firebase-admin": "10.0.2",
+    "firebase-functions": "^3.22.0"
+  }
+}
